@@ -15,8 +15,8 @@ contract Web3Voting {
     event VoteEvent(uint indexed _candidateId);
 
     constructor() {
-        addCandidate("Obama");
-        addCandidate("Saroj");
+        addCandidate("Ronaldo");
+        addCandidate("Messi");
     }
 
     function addCandidate(string memory _name) private {
